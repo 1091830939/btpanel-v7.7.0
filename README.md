@@ -7,9 +7,13 @@
 准备一个域名并托管到Cloudflare：[点击进入](https://dash.cloudflare.com/login)
 
 1、关闭防火墙  
-sudo ufw disable  
+```
+sudo ufw disable
+```  
 2、更新系统  
-apt update -y && apt upgrade -y  
+```
+apt update -y && apt upgrade -y
+```
 3、宝塔官网：[点击进入](https://www.bt.cn/)
 
 **Centos/Ubuntu/Debian安装命令 独立运行环境**
