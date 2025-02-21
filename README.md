@@ -7,7 +7,7 @@
 准备一个域名并托管到Cloudflare：[点击进入](https://dash.cloudflare.com/login)
 
 1、关闭防火墙  
-sudo ufw disable
+sudo ufw disable  
 2、更新系统  
 apt update -y && apt upgrade -y  
 3、宝塔官网：[点击进入](https://www.bt.cn/)
@@ -31,13 +31,11 @@ curl -sSO http://d.moe.ms/AAAAA/btpanel-v7.7.0/install/install_panel.sh && bash 
 
 ```
 wget -O optimize.sh http://f.cccyun.cc/bt/optimize.sh && bash optimize.sh
-
 ```
 
 **启动开心版**
 
 ```
 curl -sSO https://raw.githubusercontent.com/ztkink/bthappy/main/one_key_happy.sh && bash one_key_happy.sh
-
 ```
 
